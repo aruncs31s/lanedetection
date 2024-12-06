@@ -1,0 +1,43 @@
+    1  ls
+    2  cd Desktop/
+    3  ls
+    4  cd my\ files/
+    5  ls
+    6  cd ..
+    7  ls
+    8  git clone https://github.com/sher971/lanedetection
+    9  rm -rf lanedetection/
+   10  git clone https://github.com/aruncs31s/lanedetection
+   11  cd lanedetection/
+   12  pip install venv
+   13  pip install venv  --break-system-packages
+   14  sudo apt update
+   15  sudo apt install python-venv
+   16  sudo dpkg --configure -a
+   17  sudo apt install python-venv
+   18  apt  list | grep virtual
+   19  sudo apt install python3-virtualenv
+   20  sudo apt --fix-broken install
+   21  sudo apt install python3-virtualenv
+   22  virtualenv venv
+   23  source venv/bin/activate
+   24  pip instal numpy opencv-python
+   25  pip install numpy opencv-python
+   26  python lanedetection.py 
+   27  cd ..
+   28  wget https://iriun.gitlab.io/iriunwebcam-2.8.3.deb
+   29  sudo dpkg -i iriunwebcam-2.8.3.deb 
+   30  sudo su
+   31  sudo apt install v4l2loopback-dkms v4l2loopback-utils
+   32  sudo apt --fix-broken install
+   33  sudo apt install v4l2loopback-dkms v4l2loopback-utils
+   34  sudo apt install ffmpeg
+   35  sudo modprobe v4l2loopback devices=1 max_buffers=2 exclusive_caps=1 card_label="VirtualCam #0"
+   36  sudo ffmpeg -i http://192.168.234.76/video/ -f v4l2 -pix_fmt yuv420p /dev/video0
+   37  sudo ffmpeg -i http://192.168.234.76:4747 -f v4l2 -pix_fmt yuv420p /dev/video0
+   38  sudo ffmpeg -i http://192.168.234.76:4747/video -f v4l2 -pix_fmt yuv420p /dev/video0
+   39  sudo ffmpeg -i http://192.168.234.76:4747/video 
+   40  v4l2-ctl --list-devices
+   41  sudo ffmpeg -i http://192.168.234.76:4747/video -f v4l2 -pix_fmt yuv420p /dev/video0
+   42  history
+   43  history > lanedetection/history.txt

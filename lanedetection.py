@@ -69,7 +69,7 @@ def getLaneCurve(img, display=2):
 
 def main():
     # Start video capture using Iriun Webcam (replace 0 with 1 if needed)
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     initialTrackBarVals = [102, 80, 20, 214]
     utlis.initializeTrackbars(initialTrackBarVals)
     frameCounter = 0
