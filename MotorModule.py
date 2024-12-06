@@ -8,7 +8,8 @@ from time import sleep
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-class Motor():
+
+class Motor:
     def __init__(self, EnaA, In1A, In2A, EnaB, In1B, In2B):
         self.EnaA = EnaA
         self.In1A = In1A
@@ -49,8 +50,9 @@ class Motor():
         self.pwmB.ChangeDutyCycle(0)
         sleep(t)
 
+
 def main():
-    motor = Motor(2, 3, 4, 17, 22, 27)
+    motor = Motor(2, 3, 4, 10, 22, 27)
     motor.move(0.5, 0, 2)
     motor.stop(2)
     motor.move(-0.5, 0, 2)
@@ -60,5 +62,6 @@ def main():
     motor.move(0, -0.5, 2)
     motor.stop(2)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
