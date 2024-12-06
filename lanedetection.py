@@ -5,7 +5,7 @@ import utlis
 from MotorModule import Motor  # Ensure this import is correct
 
 # Initialize motor control with GPIO pins
-motor = Motor(2, 3, 4, 10, 22, 27)  # Adjust these pins based on your setup
+motor = Motor(2, 3, 4, 12, 22, 27)  # Adjust these pins based on your setup
 
 # Curve tracking parameters
 curveList = []

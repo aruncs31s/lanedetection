@@ -10,7 +10,7 @@ from MotorModule import Motor
 class DetectionSystem:
     def __init__(self):
         # Initialize motor
-        self.motor = Motor(2, 3, 4, 10, 22, 27)
+        self.motor = Motor(2, 3, 4, 12, 22, 27)
 
         # Shared variables with thread locks
         self.frame = None

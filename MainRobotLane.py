@@ -4,7 +4,7 @@ from LaneModule import getLaneCurve
 from MotorModule import Motor
 
 ##################################################
-motor = Motor(2, 3, 4, 10, 22, 27)
+motor = Motor(2, 3, 4, 12, 22, 27)
 ##################################################
 
 

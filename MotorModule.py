@@ -52,7 +52,7 @@ class Motor:
 
 
 def main():
-    motor = Motor(2, 3, 4, 10, 22, 27)
+    motor = Motor(2, 3, 4, 12, 22, 27)
     motor.move(0.5, 0, 2)
     motor.stop(2)
     motor.move(-0.5, 0, 2)
